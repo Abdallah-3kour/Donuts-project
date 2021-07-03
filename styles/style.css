@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  background: #131313;
+  padding: 1rem 8rem;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.4rem;
+  width: 700;
+}
+
+.navbar .navbar-brand:hover {
+  color: #00bf85;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+  color: #fff;
+  font-size: 1.1rem;
+  padding: 0 0.8rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover,
+#navbarSupportedContent > ul > li:nth-child(n) > a:active {
+  color: #00bf85;
+}
+
+#navbarSupportedContent > button {
+  background: #00bf85;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 70px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.main-img {
+  background-image: url(/images/main.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+}
+
+.main-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  width: 45%;
+  padding: 40px 0;
+  text-align: center;
+  border-top-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background-color: rgb(0, 0, 0, 0.3);
+  color: #fff;
+  font-weight: bold;
+  border: 10px inset;
+}
+
+.main-text p {
+  padding: 0, 8%;
+  font-family: merienda;
+}
+
+.main-text a {
+  background: #00bf85;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  color: #111;
+  text-decoration: none;
+}
+
+/*About*/
+.about {
+  background: #000;
+}
+
+.about .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.about .text h6 {
+  color: #00bf7f;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.about .text h2 {
+  color: #f7f5f4;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
+.about .text p {
+  color: #f7f5f4;
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.about .text a {
+  background: #00bf85;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #111;
+}
+
+/*discover*/
+
+.discover .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.discover .text h6 {
+  color: #00bf7f;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.discover .text h2 {
+  color: #111;
+  font-weight: 700;
+  font-size: 2.7rem;
+}
+
+.discover .text p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.discover .text a {
+  background: #111;
+  font-weight: 500;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/*Service*/
+
+.service {
+  background: #000;
+}
+
+.service .one {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  border-radius: 7px;
+}
+
+.service .one a {
+  background: #00bf85;
+  font-weight: 500;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #111;
+}
+
+/*sign*/
+
+.sign .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+
+.sign .text h6 {
+  color: #00bf7f;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+
+.sign .text h2 {
+  color: #111;
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+
+.sign .text p {
+  font-weight: 400;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.sign .text a {
+  background: #111;
+  font-weight: 500;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #fff;
+}
+
+body > footer {
+  background: #111 !important;
+}
+
+body
+  > footer
+  > div.container.p-4
+  > section:nth-child(2)
+  > form
+  > div
+  > div:nth-child(3)
+  > button {
+  background: #00bf85;
+  font-weight: 600;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  border: none;
+}
+
+@media screen and (max-width: 988px) {
+  .navbar {
+    padding: 1rem;
+  }
+  #navbarSupportedContent > ul {
+    padding-left: 0.8px;
+  }
+  #navbarSupportedContent > ul > li:nth-child(n) > a {
+    padding: 0.8rem 0;
+  }
+}
